@@ -1,0 +1,68 @@
+{
+    "success":true,
+    "code":200,
+    "message":"请求成功",
+    "data":[
+        {
+            "id":142307070910563,
+            "children":[
+                {
+                    "id":142307070914651,
+                    "children":[
+
+                    ],
+                    "pid":142307070910563,
+                    "name":"产品库存",
+                    "code":"warehouse_product",
+                    "component":"warehouse/product",
+                    "visible":true,
+                    "sort":102
+                },
+                {
+                    "id":142307070914652,
+                    "children":[
+
+                    ],
+                    "pid":142307070910563,
+                    "name":"入库单",
+                    "code":"warehouse_enter",
+                    "router":"/warehouse/enter",
+                    "visible":true,
+                    "sort":100
+                },
+                {
+                    "id":142307070914653,
+                    "children":[
+
+                    ],
+                    "pid":142307070910563,
+                    "name":"出库单",
+                    "code":"warehouse_out",
+                    "component":"warehouse/out",
+                    "visible":true,
+                    "sort":101
+                },
+                {
+                    "id":142307070914654,
+                    "children":[
+
+                    ],
+                    "pid":142307070910563,
+                    "name":"库存盘点",
+                    "code":"warehouse_inventory",
+                    "component":"warehouse/inventory",
+                    "visible":false,
+                    "sort":103
+                }
+            ],
+            "pid":0,
+            "name":"库存管理",
+            "code":"warehouse",
+            "router":"/warehouse",
+            "visible":true,
+            "sort":100
+        }
+    ],
+    "extras":null,
+    "timestamp":1652429833741
+}

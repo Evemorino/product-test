@@ -1,0 +1,17 @@
+{
+    "success":true,
+    "code":200,
+    "message":"«Î«Û≥…π¶",
+    "data":[
+        {
+            "id":1,
+            "id_product":1,
+            "name":"± √±",
+            "code":"G-001A",
+            "num":5,
+            "CreateTime":"2022-05-17 08:00:00"
+        }
+    ],
+    "extras":null,
+    "timestamp":1652429833741
+}

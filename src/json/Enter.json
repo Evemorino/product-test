@@ -1,0 +1,41 @@
+{
+    "success":true,
+    "code":200,
+    "message":"«Î«Û≥…π¶",
+    "data":[
+        {
+            "id":1,
+            "id_product":1,
+            "name":"± √±",
+            "code":"G-001A",
+            "num":10,
+            "CreateTime":"2022-05-16 08:55:30"
+        },
+        {
+            "id":2,
+            "id_product":1,
+            "name":"± √±",
+            "code":"G-001A",
+            "num":15,
+            "CreateTime":"2022-05-15 09:21:14"
+        },
+        {
+            "id":3,
+            "id_product":2,
+            "name":"± ø«",
+            "code":"P-G-072",
+            "num":20,
+            "CreateTime":"2022-05-16 08:50:20"
+        },
+        {
+            "id":4,
+            "id_product":3,
+            "name":"± –æ",
+            "code":"CB-56G",
+            "num":20,
+            "CreateTime":"2022-05-12 12:31:17"
+        }
+    ],
+    "extras":null,
+    "timestamp":1652429833741
+}
