@@ -2,7 +2,7 @@
  * @Author: navalercon
  * @Date: 2023-02-14 08:23:19
  * @LastEditors: navalercon
- * @LastEditTime: 2023-02-14 11:25:19
+ * @LastEditTime: 2023-02-14 14:27:26
  * @Description:
  */
 import { createRouter, createWebHistory } from "vue-router";
@@ -22,17 +22,17 @@ const router = createRouter({
         {
           name: "warehouse-product",
           path: "/warehouse/product",
-          component: () => import("@/views/warehouse/product/index.tsx"),
+          component: () => import("@/views/warehouse/product/index.vue"),
         },
         {
           name: "warehouse-enter",
           path: "/warehouse/enter",
-          component: () => import("@/views/warehouse/enter/index.tsx"),
+          component: () => import("@/views/warehouse/enter/index.vue"),
         },
         {
           name: "warehouse-out",
           path: "/warehouse/out",
-          component: () => import("@/views/warehouse/out/index.tsx"),
+          component: () => import("@/views/warehouse/out/index.vue"),
         },
       ],
     },
