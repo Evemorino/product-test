@@ -2,12 +2,12 @@ import axios from "axios";
 import type { AxiosInstance, AxiosRequestConfig, AxiosResponse } from "axios";
 // import { message } from "ant-design-vue";
 import cookie from "@/utils/cookie";
-import pinia from "@/store/store";
-import { loginStore } from "@/store/login";
-import router from "@/router/index";
+// import pinia from "@/store/store";
+// import { loginStore } from "@/store/login";
+// import router from "@/router/index";
 
-const login_store = loginStore(pinia);
-const baseurl: string = process.env.VUE_APP_BASE_API;
+// const login_store = loginStore(pinia);
+// const baseurl: string = process.env.VUE_APP_BASE_API;
 interface Result<T> {
   code: number;
   msg: string;

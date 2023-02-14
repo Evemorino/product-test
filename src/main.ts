@@ -2,7 +2,7 @@
  * @Author: navalercon
  * @Date: 2023-02-13 11:03:23
  * @LastEditors: navalercon
- * @LastEditTime: 2023-02-13 12:01:22
+ * @LastEditTime: 2023-02-14 08:38:52
  * @Description:
  */
 import { createApp } from "vue";
@@ -14,10 +14,11 @@ import router from "./router";
 import ElementPlus from "element-plus";
 
 import "element-plus/dist/index.css";
+import "normalize.css";
 
 const app = createApp(App);
 
 app.use(createPinia());
 app.use(router);
-// app.use(ElementPLus);
+app.use(ElementPlus);
 app.mount("#app");

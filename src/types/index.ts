@@ -2,7 +2,7 @@
  * @Author: navalercon
  * @Date: 2023-02-13 11:39:36
  * @LastEditors: navalercon
- * @LastEditTime: 2023-02-13 11:54:19
+ * @LastEditTime: 2023-02-14 11:38:35
  * @Description:
  */
 export type Product = {
@@ -21,12 +21,13 @@ export type Enter = Inventory;
 
 export type Out = Inventory;
 
-type MenuChild = {
+export type MenuChild = {
   id: number;
   pid: number;
   name: string;
   code: string;
   router: string;
+  component: string;
   visible: boolean;
   sort: number;
 };
